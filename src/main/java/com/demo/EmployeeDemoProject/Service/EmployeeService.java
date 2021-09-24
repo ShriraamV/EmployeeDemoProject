@@ -34,6 +34,8 @@ public class EmployeeService {
     }
     public Employee updateEmployee(Employee employee)
     {
+        //Removing set statements and code is working fine. SaveorUpdate is replaced by save in new version
+
         //Employee existingemployee = repository.findById(employee.getId()).orElse(null);
         //existingemployee.setId(employee.getId());
         //existingemployee.setName(employee.getName());
