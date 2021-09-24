@@ -4,6 +4,7 @@ package com.demo.EmployeeDemoProject.Entity;
 import javax.persistence.*;
 
 @Entity
+
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

@@ -34,11 +34,11 @@ public class EmployeeService {
     }
     public Employee updateEmployee(Employee employee)
     {
-        Employee existingemployee = repository.findById(employee.getId()).orElse(null);
-        existingemployee.setId(employee.getId());
-        existingemployee.setName(employee.getName());
-        existingemployee.setRole(employee.getRole());
-        return repository.save(existingemployee);
+        //Employee existingemployee = repository.findById(employee.getId()).orElse(null);
+        //existingemployee.setId(employee.getId());
+        //existingemployee.setName(employee.getName());
+        //existingemployee.setRole(employee.getRole());
+        return repository.save(employee);
     }
 
 
